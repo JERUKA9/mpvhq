@@ -1,5 +1,9 @@
 language: c
 
+cache:
+  directories:
+    - $HOME/mxe
+
 os:
   - linux
 #  - osx
